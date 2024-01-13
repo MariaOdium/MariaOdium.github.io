@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+  margin: 0; /* Обнуляем отступы браузера */
+ }
+ h1 {
+  font-size: 30px; /* Размер шрифта */
+  font-weight: bold; /* Жирное начертание */
+  margin: 0; /* Убираем отступы */
+  color: #2b0d4d; /* Цвет текста */
+ }
+ h2 {
+  margin: 1% 0 1% 1% ; /* Значения отступов */
+  font-size: 22px;
+ }
+ #head { /* Верхний блок */
+  background: #c4aaee; /* Цвет фона */
+  padding: 10px; /* Поля вокруг */
+  text-align: center;
+ }
+ #menu { /* Левая колонка */
+  float: left; /* Обтекание справа */
+  border: 3px solid #2d0b53; /* Параметры рамки вокруг */
+  width: 22%; /* Ширина колонки */
+  padding: 5px; /* Поля вокруг текста */
+  margin: 1% 1% 1% 1%; /* Значения отступов */
+ }
+ #menu div {
+  padding: 2px; /* Поля вокруг ссылок */
+ }
+ #menu a { 
+  /*display: block; /* Отображать ссылку как блок */
+  padding: 2px; /* Поля вокруг ссылок */
+  margin: 1px; /* Отступы вокруг */
+  font-size: 18px; /* Размер текста */
+  font-weight: bold;
+  text-decoration: none; /* Убираем подчеркивание текста */
+ }
+ 
+ p { 
+  font-size: 21px; /* Размер текста */
+  margin: 1% 5% 0 5%; /* Значения отступов */
+  }
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+
+ #menu a:hover { 
+  background: #d6c4f1; /* Цвет фона */
+  margin: 0; /* Убираем поля */
+ }
+ #content { /* Правая колонка */
+  margin: 1% 1% 1% 25%; /* Значения отступов */
+  padding: 5px; /* Поля вокруг текста */
+  border: 3px solid #2d0b53; /* Параметры рамки */
+ }
+ .line {
+  border-bottom: 3px groove #2b0d4d; /* Линия между ссылками */
+ }
+
+ .line1 {
+  border-bottom: 2px groove #2b0d4d; /* Линия между ссылками */
+  border-bottom-style: dashed;
+ }
+
+ #foot { /* Нижний блок */
+  background: #c4aaee; /* Цвет фона */
+  padding: 5px; /* Поля вокруг текста */
+  color: #000000; /* Цвет текста */
+  clear: both; /* Отменяем обтекание */
+  font-weight: bold;
+  text-align: right;
+ }
+
+/*Таблица*/
+ .table {
+  font-family: 'Ubuntu Condensed', sans-serif;
+	width: 99%;
+	margin: auto;
+	border: 3px solid #dddddd;
+	border-collapse: collapse; 
+  
+ }
+
+ .table a { 
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: #000000;
+  }
+  .table a:hover { 
+    background: #d6c4f1; /* Цвет фона */
+    margin: 0; /* Убираем поля */
+   }
+
+
+.table th {
+  font-family: 'Ubuntu Condensed', sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	background: #c4aaee;
+	border: 3px solid #7347b9;
+  font-size: 22px;
+  /* width: 10%; */
+
+}
+.table td {
+  font-family: 'Ubuntu Condensed', sans-serif;
+	border: 3px solid #7347b9;
+	padding: 5px;
+  text-align: left;
+  font-size: 22px;
+  /* width: 10%; */
+
+}
+
+
+
+/*Кнопки*/
+.choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  text-decoration: none;
+}
+
+.choice a {
+  text-decoration: none;
+}
+
+.yes {
+  background-color: #244b2a;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  border-radius: 15px;
+
+}
+.yes:hover {
+  background-color: #253f30;
+  text-decoration: none;
+}
+
+.no {
+  background-color:rgb(148, 43, 43);
+  padding: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
+  color: white;
+  border-radius: 15px;
+}
+.no:hover {
+  background-color: rgb(97, 42, 42);
+}
