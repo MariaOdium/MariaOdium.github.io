@@ -34,11 +34,17 @@ body {
   font-size: 18px; /* Размер текста */
   font-weight: bold;
   text-decoration: none; /* Убираем подчеркивание текста */
+  color: #551a8b;
  }
  
  p { 
   font-size: 21px; /* Размер текста */
   margin: 1% 5% 0 5%; /* Значения отступов */
+  }
+
+  .teg a
+  {
+    color: #551a8b;
   }
 
 img{
